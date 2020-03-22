@@ -1,13 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>CSS training</title>
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+                width: 100vw;
+                height: 100vh;
+            }
 
-</body>
+            .toolbar {
+                background: silver;
+                padding: 0 1rem 0 1rem;
+                height: 3rem;
+                display: flex;
+                flex-direction: ROW-REVERSE;
+                align-items: center;
+                justify-content: space-around;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="toolbar">
+            <button>Button1</button>
+            <button>Button2</button>
+        </div>
+    </body>
 </html>
